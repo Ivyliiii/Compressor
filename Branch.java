@@ -13,4 +13,8 @@ public class Branch<E> {
 		info = e;
 		isLeaf = true;
 	}
+	
+	public String toString() {
+		return info.toString();
+	}
 }
